@@ -12,9 +12,9 @@ INSERT INTO shoes (name, price, features, image_url, pair_id) VALUES
 ('Vans Classic Slip-On', 60.00, ARRAY['Low profile canvas upper', 'Elastic side accents', 'Minimalist aesthetic', 'Signature rubber waffle outsole'], '/images/31.jpeg', 3),
 ('Hoka Clifton 9', 145.00, ARRAY['Maximum cushion EVA foam midsole', 'Early stage Meta-Rocker for smooth ride', 'Breathable engineered knit upper', 'APMA Seal of Acceptance for foot health'], '/images/32.jpeg', 3),
 
--- -- Pair 4: QualityDurability & Purpose (Rugged Outdoor Boot vs. Delicate Fashion Heel)
--- ('Jimmy Choo Romy 100 Pump', 750.00, ARRAY['Patent leather', 'Pointy toe stiletto design', '100mm heel height', 'Leather lining and sole', 'Event-specific delicate construction'], '/images/41.jpeg', 4),
--- ('Timberland 6-Inch Premium Boot', 198.00, ARRAY['Premium waterproof leather', 'Seam-sealed construction for durability', 'PrimaLoft insulation', 'Anti-fatigue technology for comfort'], '/images/42.JPG', 4),
+-- Pair 4: QualityDurability & Purpose (Rugged Outdoor Boot vs. Delicate Fashion Heel)
+('Jimmy Choo Romy 100 Pump', 750.00, ARRAY['Patent leather', 'Pointy toe stiletto design', '100mm heel height', 'Leather lining and sole', 'Event-specific delicate construction'], '/images/41.jpeg', 4),
+('Timberland 6-Inch Premium Boot', 198.00, ARRAY['Premium waterproof leather', 'Seam-sealed construction for durability', 'PrimaLoft insulation', 'Anti-fatigue technology for comfort'], '/images/42.JPG', 4),
 
 -- Pair 5: Brand Trust & Sensitivity (Global Iconic Brand vs. Generic Private Label)
 ('Amazon Essentials Classic Sneaker', 25.00, ARRAY['Generic Private Label','Faux leather upper', 'Minimalist design', 'Basic rubber sole', 'Private label value pricing', 'Low brand recognition'], '/images/51.jpg', 5),
@@ -56,9 +56,9 @@ INSERT INTO shoes (name, price, features, image_url, pair_id) VALUES
 ('Balenciaga Triple S Sneaker', 1150.00, ARRAY['Complex 3-layered outsole', 'Aggressive, oversized "dad shoe" silhouette', 'High-fashion, trend-driven design', 'Embroidered branding and size'], '/images/141.png', 14),
 ('Allen Edmonds Park Avenue Oxford', 425.00, ARRAY['Premium calfskin leather', 'Classic cap-toe formal design', '360° Goodyear welt for longevity', 'Timeless, multi-generational style'], '/images/142.jpg', 14),
 
--- -- Pair 15: Functional Fit (Durability) vs. Economic Constraints (Disposability)
--- ('Red Wing Iron Ranger Boot', 350.00, ARRAY['Premium full-grain leather', 'Goodyear welt construction for resoleability', 'Triple-stitched for maximum durability', 'High initial cost for long-term value'], '/images/151.jpeg', 15),
--- ('Fast-Fashion Faux-Leather Boot', 80.00, ARRAY['Polyurethane upper', 'Cemented sole for lower cost', 'Trendy design for a single season', 'Low initial cost, designed for disposability'], '/images/152.jpeg', 15),
+-- Pair 15: Functional Fit (Durability) vs. Economic Constraints (Disposability)
+('Red Wing Iron Ranger Boot', 350.00, ARRAY['Premium full-grain leather', 'Goodyear welt construction for resoleability', 'Triple-stitched for maximum durability', 'High initial cost for long-term value'], '/images/151.jpeg', 15),
+('Fast-Fashion Faux-Leather Boot', 80.00, ARRAY['Polyurethane upper', 'Cemented sole for lower cost', 'Trendy design for a single season', 'Low initial cost, designed for disposability'], '/images/152.jpeg', 15),
 
 -- Pair 16: Psychological Motivators (Identity/CSR) vs. Brand Trust (Conventional Classic)
 ('Allbirds Wool Runner', 110.00, ARRAY['ZQ Merino Wool (sustainability story)', 'SweetFoam midsole from sugarcane', 'Carbon neutral brand identity', 'Appeal based on ethical values and CSR'], '/images/161.jpg', 16),
